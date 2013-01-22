@@ -1,0 +1,39 @@
+body { color:#333; font:16px/1.4 sans-serif; padding:1em; margin:0; }
+a { text-decoration:none; }
+a:link { color:#006DD9; }
+a:hover { text-decoration:underline; }
+h1, h2, h3, h4, h5, h6 { color:#111; font-family: 'Coustard', sans-serif; }
+h1 { font-size:1.9em; }
+h2, h3, h4, h5, h6 { font-size:1.3em; margin-top:1.5em; }
+h3, h4, h5, h6 { font-size:1.1em; }
+pre { font-size:0.95em; padding:0.3em 0.5em; margin-left:1em; margin-right:1em; background:#FFEFBF; display:block; overflow:auto; overflow-x:scroll; border-radius:3px; }
+form input[type="email"] { padding:0.2em; font:inherit; border:1px solid #ccc; border-radius:3px; }
+form input { vertical-align:middle; }
+p code { word-break:break-all; font-size:0.95em; padding:0.1em 0.2em; margin:0 0.2em; background:#FFEFBF; border-radius:3px; }
+p, pre, ul, ol { margin-bottom:1.3em; }
+li ul, li ol { margin-bottom:0; }
+
+.menu { display:block; float:left; margin:0; padding:0; }
+.menu li { float:left; display:block; margin:0; padding:0; }
+#header { float:left; width:100%; clear:both; margin:1em 0 2em 0; padding-bottom:1em; border-bottom:1px solid #ddd; }
+#soul { max-width:650px; margin:0 auto; }
+
+#header h1 { float:left; margin:0 1em 1em 0; font-size:1em; }
+#header h1 a { color:#111; padding:1em 1em 1em 60px; background:url('via-orbiter-logo.png') no-repeat left center; }
+#header ul { float:right; margin:0 -0.7em 0 0; }
+#header li a { padding:1em 0.7em; }
+#header .twitter-follow-button { margin:0 1em; }
+
+#footer { float:left; width:100%; clear:both; padding:0; margin:3em 0 2em 0; border-top:1px solid #ddd; }
+#footer ul { margin-left:-0.7em; margin-top:1em; }
+#footer li a { padding:1em 0.7em; }
+#via-orbiter { float:right; color:#ccc; margin-top:1em; }
+
+#articles, #article { float:left; width:100%; clear:both; }
+.article-list, #article { float:left; width:100%; clear:both; margin:0; padding:0; }
+.article-list li { display:block; list-style:none; margin:0; padding:0; }
+.article-list h2, .article-list h3 { font-size:1.2em; margin:0; }
+.article-list a { display:block; padding:1em 0; }
+#article img { max-width:100%; }
+
+#subscribe { color:#666; font-size:0.9em; text-align:center; margin-bottom:1em; clear:both; padding:1em; background:#eee url('via-orbiter-bcg-white.png') no-repeat 20% 50%; border-bottom:1px solid #ddd; }

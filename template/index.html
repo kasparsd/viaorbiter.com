@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>{{article.title}} &mdash; via Orbiter</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Coustard&subset=latin" />
+	<link rel="stylesheet" type="text/css" href="/templates/viaorbiter/assets/style.css" />
+	<link rel="alternate" type="application/rss+xml" href="/rss" />
+	<link rel="shortcut icon" type="image/png" href="/templates/viaorbiter/assets/via-orbiter-logo.png" />
+</head>
+<body>
+
+<div id="soul">
+
+	<nav id="header">
+		<header>
+			<h1><a href="/">Orbiter</a></h1>
+		</header>
+
+		<ul class="menu">
+			<li><a href="/guide">Docs</a></li>
+			<li><a href="/blog">Blog</a></li>
+			<li><a href="/rss">RSS</a></li>
+			<li><a href="http://twitter.com/viaorbiter">@viaOrbiter</a></li>
+		</ul>
+	</nav>
+	
+	<section id="article">
+		{{#article}}
+		<article>
+			{{{content}}}
+		</article>
+		{{/article}}
+
+		<ul class="article-list">
+		{{#children}}
+			<li><h3><a href="/{{permalink}}">{{title}}</a></h3></li>
+		{{/children}}
+		</ul>
+	</section>
+
+	<nav id="footer">
+		<section id="subscribe">
+			<form action="https://tinyletter.com/viaorbiter" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/viaorbiter', 'popupwindow', 'scrollbars=yes,width=800,height=600'); return true;">
+				<input type="hidden" value="1" name="embed" />
+				<label>
+					Subscribe to news &amp; updates:
+					<input type="email" value="" name="email" placeholder="enter your email" required />
+				</label>
+				<input type="submit" value="Subscribe" name="subscribe" />
+			</form>
+		</section>
+				
+		<ul class="menu">
+			<li><a href="/guide">Guidebook</a></li>
+			<li><a href="/blog">Blog</a></li>
+			<li><a href="/rss">RSS</a></li>
+			<li><a href="http://twitter.com/viaorbiter">@viaOrbiter</a></li>
+		</ul>
+
+		<a href="http://viaorbiter.com" id="via-orbiter" title="Published via Orbiter">Delivered via Orbiter</a>
+	</nav>	
+
+</div><!-- #soul -->
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-178598-37']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>
