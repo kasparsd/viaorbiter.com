@@ -31,9 +31,10 @@ li ul, li ol { margin-bottom:0; }
 
 #articles, #article { float:left; width:100%; clear:both; }
 .article-list, #article { float:left; width:100%; clear:both; margin:0; padding:0; }
-.article-list li { display:block; list-style:none; margin:0; padding:0; }
+.article-list { border-bottom:1px solid #ddd; }
+.article-list li { display:block; list-style:none; margin:0; padding:0; border-top:1px solid #ddd; }
 .article-list h2, .article-list h3 { font-size:1.2em; margin:0; }
-.article-list a { display:block; padding:1em 0; }
+.article-list a { display:block; padding:0.5em 0; }
 #article img { max-width:100%; }
 
 #subscribe { color:#666; font-size:0.9em; text-align:center; margin-bottom:1em; clear:both; padding:1em; background:#eee url('via-orbiter-bcg-white.png') no-repeat 20% 50%; border-bottom:1px solid #ddd; }
