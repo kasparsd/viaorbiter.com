@@ -6,7 +6,7 @@ title = Minimalist Tool for Publishing
 
 ## Five Reasons to Use Orbiter
 
-1. 	**Orbiter is a messenger without administration interface and login screen**. It takes any folder with your articles and makes them available as a website or blog.
+1. 	**Orbiter is not a CMS -- it doesn't have an admin panel and login screen**. It takes any folder with your articles and makes them available as a website or blog.
 
 2. 	**Orbiter is extremely extensible**. With a plugin and hook system similar to WordPress you can customize and add support for any kind of document markup or templating engine. *Markdown* for markup and *Mustache* for templating are supported by default.
 
