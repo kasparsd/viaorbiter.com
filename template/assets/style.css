@@ -16,7 +16,7 @@ li ul, li ol { margin-bottom:0; }
 .menu { display:block; float:left; margin:0; padding:0; }
 .menu li { float:left; display:block; margin:0; padding:0; }
 #header { float:left; width:100%; clear:both; margin:1em 0 2em 0; padding-bottom:1em; border-bottom:1px solid #ddd; }
-#soul { max-width:650px; margin:0 auto; }
+#soul { max-width:600px; margin:0 auto; }
 
 #header h1 { float:left; margin:0 1em 1em 0; font-size:1em; }
 #header h1 a { color:#111; padding:1em 1em 1em 60px; background:url('via-orbiter-logo.png') no-repeat left center; }
