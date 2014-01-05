@@ -28,12 +28,12 @@ Check out this list of [static and dynamic site generators](/blog/static-dynamic
 
 ## About the Author
 
-Orbiter is created by **Kaspars Dambis**. I am a web designer and developer specializing in advanced WordPress development and website performance. You can follow all my projects at [GitHub](https://github.com/kasparsd).
+Orbiter is created by **Kaspars Dambis**. I am a web designer and developer specializing in advanced WordPress development and website performance. You can follow all my projects on [GitHub](https://github.com/kasparsd) and [my blog](http://kaspars.net).
 
 ## Get in Touch
 
 **Kaspars Dambis**  
 [@konstruktors](http://twitter.com/konstruktors)  
-[konstruktors.com](http://konstruktors.com)
+[kaspars.net](http://kaspars.net)
 
 
