@@ -1,15 +1,15 @@
-body { color:#333; font:16px/1.4 sans-serif; padding:1em; margin:0; }
+body { color:#222; font:16px/1.4 sans-serif; padding:1em; margin:0; }
 a { text-decoration:none; }
 a:link { color:#006DD9; }
 a:hover { text-decoration:underline; }
 h1, h2, h3, h4, h5, h6 { color:#111; font-family: 'Coustard', sans-serif; }
 h1 { font-size:1.9em; }
 h2, h3, h4, h5, h6 { font-size:1.3em; margin-top:1.5em; }
-h3, h4, h5, h6 { font-size:1.1em; }
-pre { font-size:0.95em; padding:0.3em 0.5em; margin-left:1em; margin-right:1em; background:#FFEFBF; display:block; overflow:auto; overflow-x:scroll; border-radius:3px; }
+h3, h4, h5, h6 { font-size:1.15em; }
+pre { font-size:0.95em; padding:0.5em 1em; margin-left:1.5em; background:#ddd; display:block; overflow:auto; overflow-x:scroll; }
 form input[type="email"] { padding:0.2em; font:inherit; border:1px solid #ccc; border-radius:3px; }
 form input { vertical-align:middle; }
-p code { word-break:break-all; font-size:0.95em; padding:0.1em 0.2em; margin:0 0.2em; background:#FFEFBF; border-radius:3px; }
+p code { word-break:break-all; font-size:0.95em; padding:0.1em 0.2em; margin:0 0.2em; background:#ddd; }
 p, pre, ul, ol { margin-bottom:1.3em; }
 li ul, li ol { margin-bottom:0; }
 
