@@ -3,7 +3,7 @@
         {{#articles}}
         {{^noindex}}
         <url>
-                <loc>http://viaorbiter.com/{{permalink}}</loc>
+                <loc>http://viaorbiter.com/{{uri}}</loc>
         </url>
         {{/noindex}}
         {{/articles}}
